@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Angeles Anchico Quiñones — Portafolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Work+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="particles"></canvas>
+
+  <header class="nav">
+    <span class="nav__mark">AAQ</span>
+    <nav class="nav__links">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#habilidades">Herramientas</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero__text">
+      <p class="hero__eyebrow">Ingeniería Multimedia °9</p>
+       <!--iIntroduccion -------------------------------------------------------------------->
+      <h1 class="hero__name">Hola, soy Angeles<br>convierto ideas en <span class="accent-move">experiencias interactivas.</span><br> </h1>
+      <p class="hero__tagline">Estudiante de Ingeniería Multimedia de noveno semestre,apasionada<br> por el desarrollo web, las experiencias interactivas, la interacción<br>
+         humano-computadora (HCI), la programación y la inteligencia artificial.<br>
+        Te invito a explorar los proyectos que han impulsado mi crecimiento académico y profesional.</p>
+      <div class="hero__cta">
+        <a href="#proyectos" class="btn btn--fill">Ver proyectos ↗</a>
+       
+      </div>
+    </div>
+ 
+  </section>
+
+  <section class="about" id="sobre-mi">
+    <div class="about__label">01 — Sobre mí</div>
+    <p class="about__text">
+      Estudiante de Ingeniería Multimedia interesada en la intersección entre desarrollo web,
+      producción audiovisual y diseño de interacción. Este portafolio reúne los proyectos en
+      los que he trabajado, desde sitios funcionales hasta piezas visuales, documentados en video.
+    </p>
+    <!-- Foto de presentacion--------------------------------------------------------------------->
+    <div class="hero__visual">
+      <div class="foto-wrap">
+        <img class="foto-wrap__img" src="img/Angeles.png" alt="Angeles Anchico Quiñones">
+      </div>
+
+      <div class="code-card">
+        <div class="code-card__bar"><span></span>Código</div>
+        <pre class="code-card__body"><code><span class="tk-kw">const</span> <span class="tk-var">estudiante</span> = {
+  nombre: <span class="tk-str">"Angeles"</span>,
+  carrera: <span class="tk-str">"Ing. Multimedia"</span>,
+  stack: [<span class="tk-str">"HTML"</span>, <span class="tk-str">"CSS"</span>,
+    <span class="tk-str">"JS"</span>,<span class="tk-str">"Adobe"</span>,<span class="tk-str">"Linux"
+      "</span>, <span class="tk-str">"WordPress"</span>],
+  pasion: <span class="tk-str">"crear cosas"</span>
+};</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section class="proyectos" id="proyectos">
+    <div class="section-label">02 — Proyectos</div>
+
+    <article class="proyecto proyecto--wide">
+      <div class="proyecto__media">
+        <video autoplay muted loop playsinline poster="">
+          <!-- videos de proyectos-------------------------------------------------------------------->
+          <source src="videos/proyecto-wordpress.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="proyecto__info">
+        <h3>Tienda WordPress + WooCommerce</h3>
+        <p>E‑commerce funcional construido desde cero, con gestión de productos, pagos y diseño responsive.</p>
+        <div class="proyecto__logos">
+          <span>WordPress</span><span>WooCommerce</span><span>PHP</span><span>MySQL</span>
+        </div>
+      </div>
+    </article>
+
+    <article class="proyecto">
+      <div class="proyecto__media">
+        <video autoplay muted loop playsinline>
+          <source src="img/Redes.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="proyecto__info">
+        <h3>Redes y servicos</h3>
+        <p>Descripción corta del proyecto.</p>
+        <div class="proyecto__logos"><span>Herramienta</span></div>
+      </div>
+    </article>
+
+    <article class="proyecto">
+      <div class="proyecto__media">
+        <video muted loop playsinline>
+          <source src="videos/proyecto-3.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="proyecto__info">
+        <h3>Proyecto 3</h3>
+        <p>Descripción corta del proyecto.</p>
+        <div class="proyecto__logos"><span>Herramienta</span></div>
+      </div>
+    </article>
+  </section>
+<!-- porcentajes de las herramienstas  ----------------------------------------------->
+
+  <section class="habilidades" id="habilidades">
+    <div class="section-label">03 — Herramientas</div>
+    <div class="skills">
+      <div class="skill">
+        <div class="skill__top"><img class="skill__icon" src="https://cdn.simpleicons.org/html5" alt="HTML"><span class="skill__name">HTML</span><span class="skill__pct">90%</span></div>
+        <div class="skill__bar"><div class="skill__fill" style="width:90%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill__top"><img class="skill__icon" src="img/css.png" alt="CSS"><span class="skill__name">CSS</span><span class="skill__pct">85%</span></div>
+        <div class="skill__bar"><div class="skill__fill" style="width:85%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill__top"><img class="skill__icon" src="https://cdn.simpleicons.org/javascript" alt="JavaScript"><span class="skill__name">JavaScript</span><span class="skill__pct">70%</span></div>
+        <div class="skill__bar"><div class="skill__fill" style="width:70%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill__top"><img class="skill__icon" src="https://cdn.simpleicons.org/wordpress" alt="WordPress"><span class="skill__name">WordPress</span><span class="skill__pct">80%</span></div>
+        <div class="skill__bar"><div class="skill__fill" style="width:80%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill__top"><img class="skill__icon" src="https://cdn.simpleicons.org/figma" alt="Figma"><span class="skill__name">Figma</span><span class="skill__pct">75%</span></div>
+        <div class="skill__bar"><div class="skill__fill" style="width:75%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill__top"><img class="skill__icon" src="https://cdn.simpleicons.org/adobepremierepro" alt="Premiere"><span class="skill__name">Premiere</span><span class="skill__pct">80%</span></div>
+        <div class="skill__bar"><div class="skill__fill" style="width:80%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill__top"><img class="skill__icon" src="https://cdn.simpleicons.org/adobeaftereffects" alt="After Effects"><span class="skill__name">After Effects</span><span class="skill__pct">65%</span></div>
+        <div class="skill__bar"><div class="skill__fill" style="width:65%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill__top"><img class="skill__icon" src="https://cdn.simpleicons.org/mysql" alt="MySQL"><span class="skill__name">MySQL</span><span class="skill__pct">70%</span></div>
+        <div class="skill__bar"><div class="skill__fill" style="width:70%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacto" id="contacto">
+    <div class="section-label">04 — Contacto</div>
+    <a class="contacto__email" href="mailto:angeleslapro@gmail.com">anchicoquinonesangeles@gmail.com</a>
+    <div class="contacto__redes">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>© 2026 Angeles Anchico Quiñones</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
